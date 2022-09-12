@@ -2938,6 +2938,11 @@ figcaption {
   justify-self: start;
 }
 
+#w-node-ac860415-aed7-93f6-2c52-876938ffa350-7c300df7 {
+  -ms-grid-column-align: start;
+  justify-self: start;
+}
+
 @media screen and (max-width: 991px) {
   #w-node-c1dc7ded-3ab8-7438-1a1c-c09c440cadbe-440cadac {
     -ms-grid-column-align: start;
