@@ -114,6 +114,11 @@
 }
 
 body {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   background-color: #130038;
   font-family: Jost, sans-serif;
   color: #fff;
@@ -364,8 +369,8 @@ figcaption {
 }
 
 .icon-1x1-small {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 0.8rem;
+  height: 0.8rem;
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
 }
@@ -694,6 +699,19 @@ figcaption {
 
 .form-label {
   margin-bottom: 0.5rem;
+}
+
+.page-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .text-size-tiny {
@@ -1325,8 +1343,20 @@ figcaption {
 }
 
 .services_icon-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin-right: 1rem;
   padding-top: 0.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
@@ -1585,6 +1615,7 @@ figcaption {
 }
 
 .footer_component {
+  margin-top: auto;
   background-color: #0b0a0c;
 }
 
