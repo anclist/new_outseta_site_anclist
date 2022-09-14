@@ -1,0 +1,19 @@
+{
+  "name": "anclist_new_outseta.webflow",
+  "version": "1.0.0",
+  "description": "to add npm packages to my project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anclist/new_outseta_site_anclist.git"
+  },
+  "author": "antonio manzanares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anclist/new_outseta_site_anclist/issues"
+  },
+  "homepage": "https://github.com/anclist/new_outseta_site_anclist#readme"
+}
