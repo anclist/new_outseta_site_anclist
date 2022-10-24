@@ -2098,6 +2098,21 @@ figcaption {
   color: #f95758;
 }
 
+.country-selector {
+  padding: 0.5rem 1rem;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  font-weight: 500;
+}
+
+.country-selector:hover {
+  color: #f95758;
+}
+
+.country-selector.is-last-link {
+  padding-right: 0rem;
+}
+
 @media screen and (max-width: 991px) {
   .button:hover {
     -webkit-transform: none;
@@ -2402,6 +2417,20 @@ figcaption {
   .lottie-animation {
     width: 72px;
     height: 72px;
+  }
+
+  .country-selector {
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .country-selector.is-last-link {
+    padding-right: 1rem;
+  }
+
+  .country-selector.is-last-link.text-style-link {
+    text-align: left;
   }
 }
 
