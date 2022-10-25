@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Mon Oct 24 2022 21:46:50 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Tue Oct 25 2022 14:05:14 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="631f9dd260aa01667c300df7" data-wf-site="62d8ae7bb18a3b46e4df73e7" lang="en">
 <head>
   <meta charset="utf-8">
@@ -44,8 +44,9 @@
   </noscript>
   <link rel="alternate" hreflang="en" href="https://www.anclist.com">
   <link rel="alternate" hreflang="es" href="https://es.anclist.com">
-  <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
-  <script>
+  <!--     
+<script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+<script>
     Weglot.initialize({
         api_key: 'wg_a8dfd338a5feb8a557164ef95abe98c98',
 	switchers: [
@@ -68,7 +69,17 @@
    ]
    });
 </script>
-  });
+ -->
+  <!--  ConveyThis code  -->
+  <script src="https://cdn.conveythis.com/javascript/conveythis-initializer.js"></script>
+  <script type="text/javascript">
+	document.addEventListener("DOMContentLoaded", function(e) {
+		ConveyThis_Initializer.init({
+			api_key: "pub_8070b05de1c3180a95df3411ea0035ad"
+		});
+	});
+</script>
+  <!--  End ConveyThis code  -->
   <!--  ShareThis BEGIN  -->
   <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=631fa4430b5e930012a9c5cf&product=privacy-policy-generator&cms=sop" async="async"></script>
   <!--  ShareThis END  -->
@@ -79,7 +90,7 @@
       <div class="nav_container">
         <a href="index.html" class="nav_logo-link w-inline-block"><img src="images/6317ebf0f1784e2c535296fb_Untitled-design.svg" loading="lazy" width="90" height="Auto" alt="anclist web development logo" class="nav_logo"></a>
         <nav role="navigation" class="nav_menu w-nav-menu">
-          <div class="nav_links-list">
+          <div id="nav_link-list" class="nav_links-list">
             <a href="index.html" class="nav_link w-inline-block">
               <div>Home</div>
             </a>
@@ -293,7 +304,7 @@ font-size: inherit;
             <div class="footer_bottom">
               <div class="text-style-muted">© 2022 anclist web dev. Powered by Webflow</div>
               <div class="footer_links-list">
-                <a href="about-me.html" class="footer_link w-inline-block">
+                <a href="#about" class="footer_link w-inline-block">
                   <div>About me</div>
                 </a>
                 <a href="/#services" class="footer_link w-inline-block">
